@@ -500,7 +500,7 @@ function Initialize()
 
 	print("-------------------------------------")
 	print ("R.E.D WW2 - Scenario setup screen")
-	print ("Selected map : " .. tostring(scenarioMap))
+	print ("Selected map : " .. tostring(scenarioMap.EvaluatedPath))
 
 	Controls.RedWW2Logo:SetTextureAndResize( "Background_21.dds" )
 	
